@@ -1,0 +1,10 @@
+ # MySQL
+  #   gem install mysql2
+  development:
+    adapter: mysql2
+    host: localhost
+    database: rest_api
+    username: root
+    password: love13
+    pool: 5
+    timeout: 5000
