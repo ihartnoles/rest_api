@@ -7,6 +7,7 @@ class PositionsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @positions }
+      format.xml  { render xml: @positions}
     end
   end
 
@@ -18,6 +19,7 @@ class PositionsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @position }
+      format.xml  { render xml: @position}
     end
   end
 
@@ -29,6 +31,7 @@ class PositionsController < ApplicationController
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @position }
+      format.xml  { render xml: @position}
     end
   end
 
