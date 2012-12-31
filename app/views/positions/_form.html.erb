@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :bOpen , "Position Open?" %><br />
-    <%= f.select_tag(:bOpen, options_for_select([['Yes', 1], ['No', 2]])) %>
+    <%= f.number_field :bOpen %>
   </div>
   <div class="actions">
     <%= f.submit %>
